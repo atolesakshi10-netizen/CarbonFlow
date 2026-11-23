@@ -1,0 +1,29 @@
+# Secrets
+.env
+.env.*
+!.env.example
+**/keys.ts
+**/*secret*
+**/*private*
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+coverage/
+
+# Generated caches
+cache/
+artifacts/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
